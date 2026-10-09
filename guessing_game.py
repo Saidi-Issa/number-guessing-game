@@ -14,6 +14,10 @@ for i in range(1,4):
     print("Value is correct")
     break 
   elif uservalue != value:
+       if uservalue>value:
+         print("Value is greater than the correct value")
+       elif uservalue<value:
+         print("Value is less than the correct value")
     print("Value is incorrect")
     print("chose the next value")
     
